@@ -3,48 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Kalam&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <img src="./images/Vector.svg" alt="logo" width="52" height="66">
-        <nav>
+        <nav> 
+            <img src="./images/Vector.svg" alt="logo" width="52" height="66">
             <ul>
-                <li a href="">Home</li>
-                <li a href="">About</li>
-                <li a href="">Service</li>
-                <li a href="">Menu</li>
-                <li a href="">Contact</li>
+                <li><a class="nav-link" href="">Home</a></li>
+                <li><a class="nav-link" href="">About</a></li>
+                <li><a class="nav-link" href="">Service</a></li>
+                <li><a class="nav-link" href="">Menu</a></li>
+                <li><a class="nav-link" href="">Contact</a></li>
             </ul>
         </nav>
-        <button type="button">Order Now</button>
-
+        <button class="nav-button" type="button">Order Now</button>
     </header>
   <main>
     <section>
-        <h1>Enjoy Your Favorite Food From Anywhere</h1>
-        <p>With just a few clicks, you can have your favorite meals delivered straight to your doorstep, no matter where you are.
+        <h1 class="title">Enjoy Your Favorite Food From Anywhere</h1>
+        <p class="page-text">With just a few clicks, you can have your favorite meals delivered straight to your doorstep, no matter where you are.
         Order now and enjoy a hassle-free and delicious meal from the comfort of your own home.</p>
-        <button type="button">Order Now</button>
-        <img src="./images/pngwing.png" alt="salad" width="528" height="528">
+        <button class="page-button" type="button">Order Now</button>
+        <img class="salad" src="./images/pngwing.png" alt="salad" width="528" height="528">
     </section>
-    <section>
-        <img src="./images/aple-min.png" alt="aple"width="396" height="502">
-        <h2>What’s Special About Our Offerings</h2>
-        <p>With our platform, you can browse through a diverse selection of cuisines and local restaurants, and choose from a
+    <section class="apple">
+        <img class="apple-img" src="./images/aple-min.png" alt="aple"width="396" height="502">
+        <h2 class="apple-title">What’s Special About Our Offerings</h2>
+        <p class="apple-text">With our platform, you can browse through a diverse selection of cuisines and local restaurants, and choose from a
         variety of dishes that cater to your specific taste buds.</p>
         <ul>
             <li>
-                <h3>Fasest Delivery</h3>
-                <p>Our advanced logistics system and dedicated delivery partners ensure that your meals are delivered to you within
+                <img class="apple-img-icon" src="./images/rocket_launch_FILL0_wght400_GRAD0_opsz48.svg" alt="rocket" width="32" height="32">
+                <h3 class="apple-icon">Fasest Delivery</h3>
+                <p class="apple-icon-text">Our advanced logistics system and dedicated delivery partners ensure that your meals are delivered to you within
                 30-minutes.</p>
             </li>
             <li>
-                <h3>Easy To Order</h3>
-                <p>You can browse through a wide variety of cuisines and restaurants, select your favorite meals, and place your order in
+                <img  class="apple-img-icon" src="./images/touch_app_FILL0_wght400_GRAD0_opsz48.svg" alt="touch_app" width="32" height="32">
+                <h3 class="apple-icon">Easy To Order</h3>
+                <p class="apple-icon-text">You can browse through a wide variety of cuisines and restaurants, select your favorite meals, and place your order in
                 just a few clicks.</p>
             </li>
-            <button type="button">Order Now</button>
+            <button class="apple-button" type="button">Order Now</button>
         </ul>
     </section>
     <section>
@@ -80,32 +87,32 @@
         </ul>
     </section>
     <section>
-        <h2>Subscribe To Get Special Offers</h2>
-        <p>Order now and receive 10% off your first meal with Enjoy Your Favorite Food From Anywhere.</p>
-        <button type="button">Subscribe</button>
-    </section>
-    <section>
-        <h2>Subscribe To Get Special Offers</h2>
-        <p>Order now and receive 10% off your first meal with Enjoy Your Favorite Food From Anywhere.</p>
-        <button type="button">Subscribe</button>
         <img src="./images/banan-min.png" alt="banan" width="608" height="266">
+        <h2>Subscribe To Get Special Offers</h2>
+        <p>Order now and receive 10% off your first meal with Enjoy Your Favorite Food From Anywhere.</p>
+        <button type="button">Subscribe</button>  
     </section>
   </main>
   <footer>
      <img src="./images/Vector.svg" alt="logo" width="52" height="66">
+     <ul>
+         <li a href="">Home</li>
+         <li a href="">About</li>
+         <li a href="">Service</li>
+         <li a href="">Menu</li>
+         <li a href="">Contact</li>
+      </ul>
       <p>Subscribe</p>
       <button type="button">Subscribe</button>
-      <p>By subscribing you agree to with our <span>Privacy Policy</span></p>
         <ul>
          <li a href="">Privacy Policy</li>
          <li a href="">Terms of Service</li>
          <li a href="">Cookies Settings</li>
       </ul>
+      <p>By subscribing you agree to with our <span>Privacy Policy</span></p>
        <p>2022 FoodSta. All right reserved.
         </p>
-
     </footer>
-
 
 </body>
 </html>

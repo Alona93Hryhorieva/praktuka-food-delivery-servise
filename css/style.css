@@ -1,0 +1,114 @@
+body{
+    font-family:"Roboto", sans-serif;
+    font-style: normal;
+    color: #2C2C2C;
+    background: #FEFEFE;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.nav-link {
+ color: #2C2C2C;;
+ font-size: 14px;
+ font-weight: 400;
+ line-height:
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active{
+    color:#BBF330;
+    text-decoration: underline;
+}
+
+.nav-button {
+    cursor: pointer;
+    background-color: #BBF330;
+    color: #2C2C2C;
+    text-align: right;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+.nav-button:hover,
+.nav-button:focus,
+.nav-button:active {
+    background-color: #FFE450;
+}
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1,2;
+}
+
+.page-text {
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 1,5;
+}
+
+.page-button {
+ color:#2C2C2C;
+ background: #BBF330;
+ text-align: right;
+ font-size: 13px;
+ font-weight: 500;
+ line-height: 1,5;
+ align-items: center;
+}
+
+.salad {
+
+}
+.apple {
+    background: #FFE550;
+}
+
+.apple-img {
+background: #FEFEFE;
+}
+
+.apple-title {
+ font-size: 42px;
+ font-weight: 700;
+ line-height: 1,2;
+}
+
+.apple-text {
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 1,5;
+}
+.apple-img-icon{
+background: #FEFEFE;
+}
+.apple-icon {
+ font-size: 18px;
+ font-weight: 700;
+ line-height: 1,40;
+}
+
+.apple-icon-text {
+ font-size: 14px;
+ font-weight: 400;
+ line-height: 1,5;
+}
+.apple-button{
+  background: #FFF;  
+ color: #2C2C2C;
+ font-size: 13px;
+ font-weight: 500;
+ line-height: 1,5;
+}
+
+.apple-button:hover,
+.apple-button:focus,
+.apple-button:active{
+ background: #BBF330;
+} 
