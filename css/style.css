@@ -12,12 +12,11 @@ a{
 ul, ol{
     list-style: none;
 }
-
+   /*-------header------*/
 .nav-link {
- color: #2C2C2C;;
  font-size: 14px;
  font-weight: 400;
- line-height:
+ line-height: normal;
 }
 
 .nav-link:hover,
@@ -29,8 +28,8 @@ ul, ol{
 
 .nav-button {
     cursor: pointer;
-    background-color: #BBF330;
-    color: #2C2C2C;
+    font-family: Roboto;
+    background:#BBF330;
     text-align: right;
     font-size: 13px;
     font-weight: 500;
@@ -38,40 +37,54 @@ ul, ol{
 }
 .nav-button:hover,
 .nav-button:focus,
-.nav-button:active {
-    background-color: #FFE450;
+.nav-button:active{
+ background: #FFE450;
 }
-.title {
+/*------------------*/
+
+/*-------salad------*/
+
+.section-salad{}
+
+.salad-title{
     font-size: 48px;
     font-weight: 700;
     line-height: 1,2;
 }
 
-.page-text {
+.salad-text{
  font-size: 16px;
- font-weight: 400;
  line-height: 1,5;
 }
 
-.page-button {
- color:#2C2C2C;
- background: #BBF330;
- text-align: right;
- font-size: 13px;
- font-weight: 500;
- line-height: 1,5;
- align-items: center;
+.salad-btn {
+    font-family: Roboto;
+    text-align: right;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1,5;
+    align-items: center;
+    cursor: pointer;
+    background:#BBF330;
 }
 
-.salad {
-
+.salad-btn:hover,
+.salad-btn:focus,
+.salad-btn:active{
+    background: #FFE450;
 }
-.apple {
+
+.salad-img{}
+/*------------------*/
+
+/*-------apple------*/
+
+.section-apple{
     background: #FFE550;
 }
 
 .apple-img {
-background: #FEFEFE;
+backgrou: #FEFEFE;
 }
 
 .apple-title {
@@ -82,9 +95,12 @@ background: #FEFEFE;
 
 .apple-text {
  font-size: 16px;
- font-weight: 400;
  line-height: 1,5;
 }
+.apple-list{}
+
+.apple-item{}
+
 .apple-img-icon{
 background: #FEFEFE;
 }
@@ -101,10 +117,13 @@ background: #FEFEFE;
 }
 .apple-button{
   background: #FFF;  
- color: #2C2C2C;
+ font-family: Roboto;
  font-size: 13px;
  font-weight: 500;
  line-height: 1,5;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
 }
 
 .apple-button:hover,
@@ -112,3 +131,169 @@ background: #FEFEFE;
 .apple-button:active{
  background: #BBF330;
 } 
+/*------------------*/
+
+/*-------menu------*/
+.section-menu {}
+
+.menu-title {
+ text-align: center;
+ font-size: 42px;
+ font-weight: 700;
+ line-height: normal;
+}
+
+.menu-title-text {
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.menu-list {}
+
+.menu-list-item {}
+
+.menu-list-img {}
+
+/*------------------*/
+
+/*-------coment------*/
+
+.coment {
+    background: #FFE550;
+}
+
+.coment-title {
+ font-size: 42px;
+ font-weight: 700;
+ line-height: normal;
+}
+
+.coment-title-text {
+ font-size: 16px;
+ line-height: normal;
+}
+
+.coment-list {}
+
+.coment-list--item {}
+
+.coment-list-text {
+ font-size: 18px;
+ font-weight: 700;
+ line-height: normal;
+}
+
+.coment-list-name {
+ font-size: 14px;
+ font-weight: 500;
+ line-height: 1,5;
+}
+
+.coment-list-name-text {
+ font-size: 14px;
+ font-weight: 400;
+ line-height: 1,5;
+}
+/*------------------*/
+
+/*-------banan------*/
+
+.section-banan {}
+
+.banan-img {}
+
+.banan-title {
+ font-size: 42px;
+ font-weight: 700;
+  line-height: 1,2;
+}
+
+.banan-title-text {
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 1,5;
+}
+
+.banan-btn {
+ font-family: Roboto;
+ font-size: 13px;
+ font-weight: 500;
+ line-height: 1,5;
+ justify-content: center;
+ align-items: center;
+ background: #BBF330;
+ cursor: pointer;
+}
+.banan-btn:hover,
+.banan-btn:focus,
+.banan-btn:active {
+background: #FFE450;
+}
+
+/*------------------*/
+
+/*------footer-------*/
+
+.footer {}
+
+.footer-list-menu {}
+
+.footer-item-menu{}
+
+.footer-link-menu {
+ color: #2C2C2C;
+ font-size: 14px;
+ font-weight: 400;
+ line-height: normal;
+}
+
+.footer-link-menu:hover,
+.footer-link-menu:focus,
+.footer-link-menu:active {
+    color: #BBF330;
+    text-decoration: underline;
+}
+
+.footer-text-item {
+ font-size: 14px;
+ font-weight: 500;
+ line-height: 1,5;
+}
+.footer-text {
+ font-size: 12px;
+ font-weight: 400;
+ line-height: normal;
+ color: #2C2C2C;
+}
+.footer-btn {
+ font-size: 13px;
+ font-weight: 500;
+ line-height: 1,5;
+ border: 0.854px solid #7EB101;
+ cursor: pointer;
+}
+
+.footer-btn:hover,
+.footer-btn:focus,
+.footer-btn:active {
+ border: 2px solid #FFE450;
+}
+.footer-list-info{}
+
+.footer-item-info{}
+
+.footer-link-info {
+ color: #7EB101;
+ font-size: 12px;
+ font-weight: 400;
+ line-height: normal;
+ text-decoration: underline;
+}
+.footer-link-info:hover,
+.footer-link-info:focus,
+.footer-link-info:active{
+    
+}
